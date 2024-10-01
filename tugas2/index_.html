@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Struktur Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: rgb(10, 10, 10);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        .logo-search-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            height: 95px; 
+            width: 95px;
+            margin-right: 20px;
+        }
+
+        nav {
+            display: flex;
+            gap: 1em; 
+        }
+
+        nav a {
+            color: rgb(10, 10, 10); 
+            text-decoration: none;
+            padding: 0.6em 1em;
+        }
+
+        nav a:hover {
+            background-color: #f0f0f0; 
+            border-radius: 4px;
+        }
+
+        .auth-links {
+            display: flex;
+            gap: 1em;
+        }
+
+        .auth-links a {
+            color: rgb(10, 10, 10); 
+            text-decoration: none;
+            padding: 0.6em 1em;
+        }
+
+        .auth-links a:hover {
+            background-color: #f0f0f0;
+            border-radius: 4px;
+        }
+
+        .search-box {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-box input[type="text"] {
+            padding: 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 0.5em;
+        }
+
+       
+
+        main {
+            display: flex;
+            margin: 10px;
+        }
+        
+        article {
+            flex: 3;
+            background-color: #c9ebff;
+            padding: 20px;
+            margin-right: 10px;
+        }
+
+        section {
+            background-color: #b3e5fc;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #e0e0e0;
+            padding: 20px;
+        }
+
+        footer nav {
+            background-color: #f2f4ef;
+            color: rgb(236, 226, 226);
+            text-align: left;
+            padding: 0.5em;
+            margin-top: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="logo-search-container">
+            <img src="logo.jpeg" alt="Logo" class="logo">
+            <!-- Search Box -->
+            <div class="search-box">
+                <form action="#" method="get">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#">News</a>
+            <a href="#">Tekno & Sains</a>
+            <a href="#">Entertainment</a>
+            <a href="#">Food & Travel</a>
+            <a href="#">Woman</a>
+            <a href="#">Bola & Sport</a>
+        </nav>
+
+        <div class="auth-links">
+            <a href="#" class="login">Log In</a>
+            <a href="#" class="sign-in">Sign In</a>
+        </div>
+    </header>
+    
+    <main>
+        <article>
+            <section>
+                <h2>Dua Menteri Jokowi dari PKB Mundur dari Kabinet</h2>
+                <p>Pengunduran diri dilakukan lantaran keduanya akan dilantik sebagai anggota DPR periode 2024-2029 pada hari ini, Selasa (1/10).
+                    "Presiden menyetujui pengunduran diri tersebut dan telah menandatangani Keppres pemberhentian dengan hormat Bapak Abdul Halim Iskandar dan Ibu Ida Fauziyah," kata Koordinator Staf Khusus Presiden Ari Dwipayana dalam keterangannya, Senin (30/9).
+                    </p>
+            </section>
+            <section>
+                <h2>Israel Siapkan Serangan Besar, Pasukan Lebanon Mundur dari Perbatasan</h2>
+                <p>Pasukan Lebanon mundur dari perbatasan dengan Israel pada Senin (30di tengah tanda-tanda invasi darat oleh Israel. Hal ini terjadi hanya beberapa hari setelah Israel membunuh pemimpin kelompok bersenjata Hizbullah Hassan Nasrallah di Lebanon, yang meningkatkan ketegangan di kawasan tersebut.
+                    Serangan udara Israel menargetkan pinggiran selatan Beirut, dengan saksi mata melaporkan kilatan cahaya dan ledakan keras, sekitar satu jam setelah militer Israel memperingatkan warga untuk mengungsi dari daerah-daerah dekat bangunan yang diduga menyimpan infrastruktur Hizbullah.
+                    Seorang pejabat Amerika Serikat (AS), yang berbicara dengan syarat anonim, mengatakan kepada Reuters bahwa penempatan pasukan Israel mengindikasikan invasi darat ke Lebanon bisa segera terjadi.</p>
+            </section>
+            <section>
+                <h2>Surat Ar Rum Ayat 41: Tafsir dan Makna yang Terkandung
+                </h2>
+                <p>Banyak ayat Al-Qur'an menguraikan peristiwa yang terjadi di muka bumi. Salah satunya tentang kerusakan alam sebagaimana dijelaskan dalam surat Ar Rum ayat 41.
+                    Ar Rum adalah surat ke 30 dalam Al-Qur'an yang terdiri dari 60 ayat. Peristiwa yang diuraikan ayat-ayat dalam surat ini menyangkut Bizantium (Romawi).
+                    </p>
+            </section>
+        </article>
+        
+        <aside>
+            <h2>Berita Terkini</h2>
+            <ul>
+                <li><a href="#">Breaking News: Kebakaran Besar di Jakarta</a></li>
+                <li><a href="#">Pemerintah Umumkan Kenaikan Harga BBM</a></li>
+                <li><a href="#">Banjir Landa Beberapa Daerah di Indonesia</a></li>
+                <li><a href="#">Timnas Indonesia Lolos ke Semifinal Piala Asia</a></li>
+            </ul>
+           
+        </aside>
+        
+        
+    </main>
+
+    <footer>
+        <nav>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
